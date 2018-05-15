@@ -411,7 +411,7 @@ function genesis_wizzit_nav() {
 	'fallback_cb'    	=> false,
 	'menu_class'     	=> 'genesis-nav-menu',
 	'menu_id'					=> 'wizzit-primary-nav-menu',
-	'walker'					=> new Nav_Wizzit_Walker(),
+	/*'walker'					=> new Nav_Wizzit_Walker(),*/
 	) );
 
 	echo '</nav>';

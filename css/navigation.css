@@ -53,7 +53,7 @@ nav ul li a {
   text-decoration: none !important;
 }
 
-.has-children > a::after {
+.menu-item-has-children > a::after {
   font-family: FontAwesome;
   float:right;
   content:'\f107';
