@@ -1,0 +1,169 @@
+/* Sponsors FlexSlider CSS */
+.sponsor-slide {
+  max-height: 150px;
+}
+
+.sponsor-slide img {
+max-height: 150px; /*maximum height for all slides*/
+width: auto !important; /*proper aspect ratio of images*/
+max-width: 100%; /*maximum width for all slides*/
+margin: 0 auto; /*centering images in the container*/
+}
+
+.flexslider {
+  margin:0;
+}
+
+.flexslider ul > li {
+  list-style-type: none;
+}
+/* End FlexSlider CSS */
+
+/* Elementor Slider with CSS class .sponsors-slider-elementor */
+.sponsors-slider-elementor * .slick-track {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Sponsors Page */
+.sponsor-page-wrap {
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+}
+
+.sponsor-page-wrap h2 {
+  color:#5f5f5f;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Anton', sans-serif;
+  font-size:2em;
+  width:100%;
+}
+
+.sponsor-container img {
+  display:block;
+  max-height: 200px;
+  margin:auto;
+
+}
+
+.sponsor-container h3 {
+  text-align: center;
+  font-size: 2em;
+  padding:4px;
+  margin: -12px;
+  margin-bottom:24px;
+  background:rgba(255,255,255,0.8);
+  border-bottom: 1px solid black;
+}
+
+.sponsor-container a {
+  color:black;
+}
+
+.sponsor-container a:hover {
+  color:#ff0101;
+  text-decoration: none;
+}
+
+.sponsor-container {
+border:1px solid black;
+padding:12px;
+display:inline-block;
+float:left;
+align-items: flex-end;
+margin-right:1%;
+margin-bottom:24px;
+}
+
+.sponsor-Platinum {
+width:100%;
+background:url('../images/background-sl-platinum.png');
+}
+
+.sponsor-container:not(.sponsor-Platinum) {
+  width:49%;
+}
+
+.sponsor-Diamond {
+background:url('../images/background-sl-diamond.png');
+}
+
+.sponsor-Gold {
+background:url('../images/background-sl-gold.png');
+}
+
+.sponsor-Silver {
+background:url('../images/background-sl-silver.png');
+}
+
+.sponsor-Bronze {
+background:url('../images/background-sl-bronze.png');
+}
+
+.sponsor-Corporate {
+background:url('../images/background-sl-corporate.png');
+}
+
+.special-thanks-heading {
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.sponsor-Special {
+border:0;
+padding-top:3px;
+padding-bottom:0;
+margin-right:0;
+margin-bottom:0;
+width:100% !important;
+
+display:block;
+}
+
+.sponsor-Special h3 {
+  background:none;
+  font-size: 1.5em;
+  padding-bottom:0;
+  margin-bottom:0;
+  border-bottom:0;
+}
+
+.sponsor-Special a {
+  color:black;
+}
+
+.sponsor-Special img {
+  display:none;
+}
+
+/* .sponsor-Special h3:after {
+  content:' | ';
+} */
+
+.sponsor-container {
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 812px) { /*Landscape Phone Size Approx*/
+
+.sponsor-container {
+  margin-left:4px;
+  width:100%;
+}
+
+.sponsor-container h3 {
+  font-size:1.5em;
+}
+
+.sponsor-container:not(.sponsor-Platinum) {
+    width: 100%;
+}
+
+.sponsor-Special h3 {
+  font-size: 1.1em;
+}
+
+}

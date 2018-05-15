@@ -1,0 +1,25 @@
+/* Quicksand one font */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+.counter-container {
+  text-align:right;
+}
+
+.counter h3, .counter h4 {
+  color:white;
+  margin:0;
+}
+
+h3 {
+  font-family: 'Anton', san-serif;
+  display:inline;
+  font-size: 2.5em;
+  font-weight:100;
+  text-transform:uppercase;
+}
+
+h4 {
+  font-family: 'Quicksand', serif;
+  display:inline;
+}

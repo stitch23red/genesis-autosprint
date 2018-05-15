@@ -1,0 +1,37 @@
+.wizzit-results-container {
+  margin-bottom:16px;
+  padding-bottom:16px;
+  border-bottom:1px dashed #666;
+}
+
+.wizzit-results-driver-info, .wizzit-results-car-info {
+  display:inline-block;
+}
+
+.wizzit-results-car-number { }
+
+.wizzit-results-driver { }
+
+.wizzit-results-car-number, .wizzit-results-driver {
+ font-weight:bold;
+}
+
+.wizzit-results-car:before {
+  content: " - ";
+}
+.wizzit-results-class {
+  display:none;
+}
+.wizzit-results-day1:before {
+  content: "Day 1: ";
+}
+
+.wizzit-results-day1:after, .wizzit-results-day2:after  {
+  content: " | ";
+}
+.wizzit-results-day2:before {
+  content: "Day 2: ";
+}
+.wizzit-results-total:before {
+  content: "Total: ";
+}
