@@ -53,17 +53,10 @@ nav ul li a {
   text-decoration: none !important;
 }
 
-.arrow {
+.has-children > a::after {
   font-family: FontAwesome;
-  float: right;
-}
-
-.arrow-down::after {
-  content: "\f107";
-}
-
-.arrow-right::after {
-  content: "\f105";
+  float:right;
+  content:'\f107';
 }
 
 .toggle {
