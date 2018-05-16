@@ -1773,7 +1773,6 @@ body {
 /* Full Width Page Template Section */
 .page-template-page_full-width .site-container .site-inner .content {
 	width:100%;
-	flex:100%;
 }
 
 @media only screen and (max-width: 1325px) {
