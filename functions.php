@@ -19,12 +19,6 @@ require_once get_stylesheet_directory() . '/lib/theme-defaults.php';
 // Add custom admin page
 require_once get_stylesheet_directory() . '/inc/function-admin.php';
 
-// Add custom menu walker
-require_once get_stylesheet_directory() . '/inc/wizzit-walker.php';
-
-
-
-
 add_action( 'after_setup_theme', 'genesis_wizzit_localization_setup' );
 /**
  * Sets localization (do not remove).
@@ -111,6 +105,7 @@ function genesis_enqueue_scripts_styles() {
 	wp_enqueue_style( 'dashicons' );
 
 /* Add Bootstrap */
+/*
 	wp_enqueue_style(
 		'wizzit-bootstrap-min',
 		get_stylesheet_directory_uri() . '/css/bootstrap.min.css',
@@ -147,7 +142,7 @@ function genesis_enqueue_scripts_styles() {
 		null,
 		true
 	);
-
+*/
 	/* End Adding Bootstrap */
 
 
